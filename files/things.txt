@@ -1,0 +1,18 @@
+barrel
+row
+line
+team
+gaggle
+murder
+herd
+group
+formation
+conflagration
+gathering
+party
+car
+boat
+house
+root cellar
+amphitheater
+train
