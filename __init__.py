@@ -1,10 +1,12 @@
 #!venv/bin/python
 from flask import Flask
 import random
+import os
 
 app = Flask(__name__)
-animals = open('files/animals.txt','r').read().split('\n')
-things = open('files/things.txt','r').read().split('\n')
+dir = os.path.dirname(__file__)
+animals = open(os.path.join(dir, 'files/animals.txt'),'r').read().split('\n')
+things = open(os.path.join(dir, 'files/things.txt'),'r').read().split('\n')
 
 
 def getAnimal():
